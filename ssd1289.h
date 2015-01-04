@@ -1,0 +1,86 @@
+#define OSCILATOR 0x00
+#define OSC_OSCEN 0x01
+
+#define DRIVER_OUTPUT_CONTROL 0x01
+#define DOC_MUX0  0x01
+#define DOC_MUX1  0x02
+#define DOC_MUX2  0x04
+#define DOC_MUX3  0x08
+#define DOC_MUX4  0x10
+#define DOC_MUX5  0x20
+#define DOC_MUX6  0x40
+#define DOC_MUX7  0x80
+#define DOC_MUX8  0x100
+#define DOC_TB    0x200
+#define DOC_SM    0x400
+#define DOC_BGR   0x800
+#define DOC_CAD   0x1000
+#define DOC_REV   0x2000
+#define DOC_RL    0x4000
+
+#define DRIVING_WAVEFORM_CONTROL 0x02
+#define DWC_NW0   0x01
+#define DWC_NW1   0x02
+#define DWC_NW2   0x04
+#define DWC_NW3   0x08
+#define DWC_NW4   0x10
+#define DWC_NW5   0x20
+#define DWC_NW6   0x40
+#define DWC_NW7   0x80
+#define DWC_WSMD  0x100
+#define DWC_EOR   0x200
+#define DWC_BC    0x400
+#define DWC_ENWS  0x800
+#define DWC_FLD   0x1000
+
+#define DISPLAY_CONTROL 0x07
+#define DC_D0     0x01
+#define DC_D1     0x02
+#define DC_CM     0x08
+#define DC_DTE    0x10
+#define DC_GON    0x20
+#define DC_SPT    0x100
+#define DC_VLE1   0x200
+#define DC_VLE2   0x400
+#define DC_PT0    0x800
+#define DC_PT1    0x1000
+
+#define SLEEP_MODE 0x10
+#define SM_SLP    0x01
+
+#define ENTRY_MODE 0x11
+#define EM_LG0    0x01
+#define EM_LG1    0x02
+#define EM_LG2    0x04
+#define EM_AM     0x08
+#define EM_ID0    0x10
+#define EM_ID1    0x20
+#define EM_TY0    0x40
+#define EM_TY1    0x80
+#define EM_DM0    0x100
+#define EM_DM1    0x200
+#define EM_WM     0x400
+#define EM_OED    0x800
+#define EM_TRANS  0x1000
+#define EM_DFM0   0x2000
+#define EM_DFM1   0x4000
+#define EM_VSM    0x8000
+
+#define FRAME_CYCLE_CONTROL 0x0b
+#define FCC_RTN0  0x01
+#define FCC_RTN1  0x02
+#define FCC_RTN2  0x04
+#define FCC_RTN3  0x08
+#define FCC_SRTN  0x10
+#define FCC_SDIV  0x20
+#define FCC_DIV0  0x40
+#define FCC_DIV1  0x80
+#define FCC_EQ0   0x100
+#define FCC_EQ1   0x200
+#define FCC_EQ2   0x400
+#define FCC_SDT0  0x1000
+#define FCC_SDT1  0x2000
+#define FCC_NO0   0x4000
+#define FCC_NO1   0x8000
+
+#define FRAME_FREQUENCY_CONTROL 0x25
